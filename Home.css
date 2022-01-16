@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.banner{
+    width: 100%;
+    height: 90vh;
+    background-image: linear-gradient(rgba(0,0,0,0.25),rgba(0,0,0,0.25)),url(black.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.navbar{
+    width: 85%;
+    margin: auto;
+    padding: 5px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    width: 200px;
+    height: 100px;
+    cursor: pointer;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+.navbar ul li::after{
+    content: ' ';
+    height: 3px;
+    width: 0;
+    background: #06c27a;
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    transition: 0.5s;
+}
+.navbar ul li:hover::after{
+    width: 100%;
+}
+.content-vid{
+    background-image: url("stop_food_waste.jpg");
+    background-size:cover;
+    width: 800px;
+    height: 450px;
+    margin-left: 20%;
+    margin-right: 20%;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    padding-bottom: 5px;
+}
+.divisions{
+    width: 100%;
+    height: fit-content;
+}
+.head{
+    font-weight: bolder;
+    font-size: 25px;
+}
+.info{
+    /*float: right;*/
+    margin-top: 20px;
+    padding: 30px;
+    width: 600px;
+}
+.image{
+    /*float:left ;
+    align: left;*/
+    width: 100px;
+    height: 100px;
+    margin-top: -60px;
+}
+button{
+    width: 200px;
+    text-align: center;
+    border-radius: 20px;
+    font-weight: bold;
+    border: 2px solid #ffffff;
+    background: transparent;
+    color: #ffffff;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+.div1{
+    background-color: #1ca35fa6;
+    padding: 60px 60px 60px 60px;
+    align-items: center;
+    height: 400px;
+}
+.div1 .info{
+    float: right;
+}
+.div1 .image{
+    float:left ;
+    align: left;
+}
+.div1 button{
+    padding: 15px 0;
+    margin: 20px 700px;
+}
+.div2{
+    background-color: #69dd1bbd;
+    padding: 60px 60px 60px 60px;
+    align-items: center;
+    height: 400px;
+}
+.div2 .info{
+    float: left;
+}
+.div2 .image{
+    float:right ;
+    align: right;
+    padding-right: 350px;
+}
+.div2 button{
+    padding: 15px 0;
+    margin: 20px 250px;
+}
+.div3{
+    background-color: #05812ac0;
+    padding: 60px 60px 60px 60px;
+    align-items: center;
+    height: 400px;
+}
+.div3 .info{
+    float: right;
+}
+.div3 .image{
+    float:left ;
+    align: left;
+}
+.div3 button{
+    padding: 15px 0;
+    margin: 20px 700px;
+}
+.div4{
+    background-color: #1ca32ec0;
+    padding: 60px 60px 60px 60px;
+    align-items: center;
+    height: 400px;
+}
+.div4 .info{
+    float: left;
+}
+.div4 .image{
+    float:right ;
+    align: right;
+    padding-right: 350px;
+}
+.div4 button{
+    padding: 15px 0;
+    margin: 20px 250px;
+}
+.div5{
+    background-color: #06c245b9;
+    padding: 60px 60px 60px 60px;
+    align-items: center;
+    height: 400px;
+}
+.div5 .info{
+    float: right;
+}
+.div5 .image{
+    float:left ;
+    align: left;
+}
+.div5 button{
+    padding: 15px 0;
+    margin: 20px 700px;
+}
+.footer{
+    background-color:black;
+    color: white;
+    position:relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
